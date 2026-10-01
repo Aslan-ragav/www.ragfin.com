@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta name="description" content="RAGFIN — Professional assistance for GSTR filing, Individual ITR filing, TDS filing and EPFO claim support. Connect directly through WhatsApp.">
-<meta name="keywords" content="GSTR filing, ITR filing, TDS filing, EPFO claim support, GST filing, Income Tax Return, RAGFIN">
+<meta name="keywords" content="GSTR filing, ITR filing, TDS filing, EPFO claim support, GST filing, Income Tax Return, TDS filing, RAGFIN">
 <meta name="author" content="RAGFIN">
 
 <meta property="og:title" content="RAGFIN — Tax & Compliance Assistance">
@@ -18,6 +18,7 @@
 <title>RAGFIN — Tax & Compliance Assistance</title>
 
 <style>
+
 :root{
   --navy:#07111f;
   --navy2:#0b1b2f;
@@ -35,12 +36,12 @@
 *{
   box-sizing:border-box;
   margin:0;
-  padding:0
+  padding:0;
 }
 
 html{
   scroll-behavior:smooth;
-  scroll-padding-top:80px
+  scroll-padding-top:80px;
 }
 
 body{
@@ -48,22 +49,23 @@ body{
   color:var(--ink);
   background:#fff;
   line-height:1.6;
-  overflow-x:hidden
+  overflow-x:hidden;
 }
 
 a{
   text-decoration:none;
-  color:inherit
+  color:inherit;
 }
 
 button{
-  font-family:inherit
+  font-family:inherit;
 }
 
 .container{
   width:min(1120px,92%);
-  margin:auto
+  margin:auto;
 }
+
 
 /* =========================
    NAVIGATION
@@ -79,18 +81,18 @@ nav{
   top:0;
   left:0;
   right:0;
-  z-index:10;
-  color:#fff
+  z-index:100;
+  color:#fff;
 }
 
 .logo{
   font-size:25px;
   font-weight:800;
-  letter-spacing:.12em
+  letter-spacing:.12em;
 }
 
 .logo span{
-  color:var(--accent)
+  color:var(--accent);
 }
 
 .navlinks{
@@ -98,21 +100,21 @@ nav{
   gap:30px;
   align-items:center;
   font-size:14px;
-  color:#d9e1eb
+  color:#d9e1eb;
 }
 
 .navlinks a{
-  transition:.2s
+  transition:.2s;
 }
 
 .navlinks a:hover{
-  color:#fff
+  color:#fff;
 }
 
 .navbtn{
   padding:11px 18px;
   border:1px solid rgba(255,255,255,.25);
-  border-radius:999px
+  border-radius:999px;
 }
 
 .mobile-menu-btn{
@@ -124,8 +126,9 @@ nav{
   height:42px;
   border-radius:10px;
   cursor:pointer;
-  font-size:20px
+  font-size:20px;
 }
+
 
 /* =========================
    HERO
@@ -140,7 +143,7 @@ nav{
   position:relative;
   overflow:hidden;
   display:flex;
-  align-items:center
+  align-items:center;
 }
 
 .hero:before{
@@ -151,7 +154,7 @@ nav{
   border:1px solid rgba(201,164,92,.08);
   border-radius:50%;
   right:-250px;
-  top:-220px
+  top:-220px;
 }
 
 .hero:after{
@@ -162,7 +165,7 @@ nav{
   border:1px solid rgba(201,164,92,.14);
   border-radius:50%;
   right:-180px;
-  bottom:-240px
+  bottom:-240px;
 }
 
 .hero-content{
@@ -170,17 +173,18 @@ nav{
   max-width:790px;
   position:relative;
   z-index:2;
-  animation:heroIn .8s ease both
+  animation:heroIn .8s ease both;
 }
 
 @keyframes heroIn{
   from{
     opacity:0;
-    transform:translateY(20px)
+    transform:translateY(20px);
   }
+
   to{
     opacity:1;
-    transform:translateY(0)
+    transform:translateY(0);
   }
 }
 
@@ -190,27 +194,27 @@ nav{
   letter-spacing:.2em;
   font-size:12px;
   font-weight:700;
-  margin-bottom:18px
+  margin-bottom:18px;
 }
 
 h1{
   font-size:clamp(45px,7vw,78px);
   line-height:1.02;
   letter-spacing:-.045em;
-  margin-bottom:25px
+  margin-bottom:25px;
 }
 
 .hero p{
   font-size:19px;
   color:#c7d1de;
-  max-width:650px
+  max-width:650px;
 }
 
 .hero-actions{
   display:flex;
   gap:13px;
   flex-wrap:wrap;
-  margin-top:35px
+  margin-top:35px;
 }
 
 .btn{
@@ -223,39 +227,40 @@ h1{
   font-weight:700;
   font-size:14px;
   transition:.25s;
-  cursor:pointer
+  cursor:pointer;
 }
 
 .btn-primary{
   background:#fff;
-  color:var(--navy)
+  color:var(--navy);
 }
 
 .btn-primary:hover{
   transform:translateY(-2px);
-  box-shadow:0 12px 30px rgba(0,0,0,.2)
+  box-shadow:0 12px 30px rgba(0,0,0,.2);
 }
 
 .btn-outline{
   border:1px solid rgba(255,255,255,.25);
-  color:#fff
+  color:#fff;
 }
 
 .btn-outline:hover{
   background:rgba(255,255,255,.08);
-  transform:translateY(-2px)
+  transform:translateY(-2px);
 }
 
 .wa-btn{
   background:var(--green);
-  color:#fff
+  color:#fff;
 }
 
 .wa-btn:hover{
   background:#20bd5a;
   transform:translateY(-2px);
-  box-shadow:0 12px 30px rgba(37,211,102,.22)
+  box-shadow:0 12px 30px rgba(37,211,102,.22);
 }
+
 
 /* =========================
    TRUST STRIP
@@ -263,43 +268,44 @@ h1{
 
 .trust-strip{
   background:#fff;
-  border-bottom:1px solid var(--line)
+  border-bottom:1px solid var(--line);
 }
 
 .trust-grid{
   display:grid;
-  grid-template-columns:repeat(4,1fr)
+  grid-template-columns:repeat(4,1fr);
 }
 
 .trust-item{
   padding:25px 20px;
   text-align:center;
-  border-right:1px solid var(--line)
+  border-right:1px solid var(--line);
 }
 
 .trust-item:last-child{
-  border-right:0
+  border-right:0;
 }
 
 .trust-item strong{
   display:block;
   font-size:14px;
-  color:var(--navy)
+  color:var(--navy);
 }
 
 .trust-item span{
   display:block;
   margin-top:3px;
   font-size:12px;
-  color:var(--muted)
+  color:var(--muted);
 }
+
 
 /* =========================
    SECTIONS
 ========================= */
 
 .section{
-  padding:95px 0
+  padding:95px 0;
 }
 
 .section-head{
@@ -307,7 +313,7 @@ h1{
   justify-content:space-between;
   gap:30px;
   align-items:end;
-  margin-bottom:42px
+  margin-bottom:42px;
 }
 
 .kicker{
@@ -316,32 +322,33 @@ h1{
   letter-spacing:.18em;
   font-size:11px;
   font-weight:800;
-  margin-bottom:10px
+  margin-bottom:10px;
 }
 
 h2{
   font-size:clamp(31px,4vw,47px);
   line-height:1.08;
-  letter-spacing:-.035em
+  letter-spacing:-.035em;
 }
 
 .section-head p{
   max-width:450px;
-  color:var(--muted)
+  color:var(--muted);
 }
+
 
 /* =========================
    SERVICES
 ========================= */
 
 .services{
-  background:var(--soft)
+  background:var(--soft);
 }
 
 .grid{
   display:grid;
   grid-template-columns:repeat(4,1fr);
-  gap:18px
+  gap:18px;
 }
 
 .card{
@@ -353,12 +360,12 @@ h2{
   transition:.25s;
   display:flex;
   flex-direction:column;
-  min-height:285px
+  min-height:285px;
 }
 
 .card:hover{
   transform:translateY(-6px);
-  box-shadow:var(--shadow)
+  box-shadow:var(--shadow);
 }
 
 .icon{
@@ -372,48 +379,49 @@ h2{
   margin-bottom:24px;
   font-weight:800;
   font-size:12px;
-  letter-spacing:.04em
+  letter-spacing:.04em;
 }
 
 .icon svg{
   width:25px;
-  height:25px
+  height:25px;
 }
 
 .card h3{
   font-size:19px;
-  margin-bottom:9px
+  margin-bottom:9px;
 }
 
 .card p{
   color:var(--muted);
   font-size:14px;
-  flex:1
+  flex:1;
 }
 
 .card a{
   margin-top:22px;
   color:var(--navy);
   font-weight:800;
-  font-size:13px
+  font-size:13px;
 }
 
 .card a:hover{
-  color:#a4813f
+  color:#a4813f;
 }
+
 
 /* =========================
    WHY RAGFIN
 ========================= */
 
 .why{
-  background:#fff
+  background:#fff;
 }
 
 .why-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  gap:18px
+  gap:18px;
 }
 
 .why-card{
@@ -421,12 +429,12 @@ h2{
   border:1px solid var(--line);
   border-radius:18px;
   background:#fff;
-  transition:.25s
+  transition:.25s;
 }
 
 .why-card:hover{
   transform:translateY(-4px);
-  box-shadow:0 15px 40px rgba(16,32,51,.07)
+  box-shadow:0 15px 40px rgba(16,32,51,.07);
 }
 
 .why-number{
@@ -434,37 +442,38 @@ h2{
   font-size:12px;
   font-weight:900;
   letter-spacing:.15em;
-  margin-bottom:18px
+  margin-bottom:18px;
 }
 
 .why-card h3{
   font-size:19px;
-  margin-bottom:8px
+  margin-bottom:8px;
 }
 
 .why-card p{
   color:var(--muted);
-  font-size:14px
+  font-size:14px;
 }
+
 
 /* =========================
    PROCESS
 ========================= */
 
 .process{
-  background:#fff
+  background:#fff;
 }
 
 .steps{
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  gap:20px
+  gap:20px;
 }
 
 .step{
   padding:30px;
   border-top:2px solid var(--accent);
-  background:linear-gradient(to bottom,#fff,#fbfcfd)
+  background:linear-gradient(to bottom,#fff,#fbfcfd);
 }
 
 .num{
@@ -472,25 +481,26 @@ h2{
   font-weight:800;
   color:#a4813f;
   letter-spacing:.15em;
-  margin-bottom:20px
+  margin-bottom:20px;
 }
 
 .step h3{
   margin-bottom:8px;
-  font-size:21px
+  font-size:21px;
 }
 
 .step p{
   color:var(--muted);
-  font-size:14px
+  font-size:14px;
 }
+
 
 /* =========================
    DOCUMENTS
 ========================= */
 
 .documents{
-  background:var(--soft)
+  background:var(--soft);
 }
 
 .document-box{
@@ -501,12 +511,12 @@ h2{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:40px;
-  box-shadow:0 8px 35px rgba(16,32,51,.04)
+  box-shadow:0 8px 35px rgba(16,32,51,.04);
 }
 
 .document-list{
   list-style:none;
-  margin-top:20px
+  margin-top:20px;
 }
 
 .document-list li{
@@ -515,7 +525,7 @@ h2{
   align-items:flex-start;
   padding:10px 0;
   color:#455263;
-  font-size:14px
+  font-size:14px;
 }
 
 .check{
@@ -528,25 +538,26 @@ h2{
   display:grid;
   place-items:center;
   font-size:12px;
-  font-weight:900
+  font-weight:900;
 }
 
 .document-note{
   background:var(--navy);
   color:#fff;
   border-radius:18px;
-  padding:30px
+  padding:30px;
 }
 
 .document-note h3{
   font-size:22px;
-  margin-bottom:10px
+  margin-bottom:10px;
 }
 
 .document-note p{
   color:#c4cfdb;
-  font-size:14px
+  font-size:14px;
 }
+
 
 /* =========================
    CTA
@@ -555,35 +566,36 @@ h2{
 .cta{
   padding:90px 0;
   background:var(--navy);
-  color:#fff
+  color:#fff;
 }
 
 .cta-box{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  gap:30px
+  gap:30px;
 }
 
 .cta h2{
-  max-width:650px
+  max-width:650px;
 }
 
 .cta p{
   color:#bdc9d6;
-  margin-top:12px
+  margin-top:12px;
 }
+
 
 /* =========================
    FAQ
 ========================= */
 
 .faq{
-  background:var(--soft)
+  background:var(--soft);
 }
 
 .faq-wrap{
-  max-width:850px
+  max-width:850px;
 }
 
 details{
@@ -592,45 +604,46 @@ details{
   padding:20px 22px;
   border-radius:12px;
   margin-bottom:12px;
-  transition:.2s
+  transition:.2s;
 }
 
 details[open]{
-  box-shadow:0 8px 25px rgba(16,32,51,.05)
+  box-shadow:0 8px 25px rgba(16,32,51,.05);
 }
 
 summary{
   cursor:pointer;
   font-weight:750;
-  list-style:none
+  list-style:none;
 }
 
 summary::-webkit-details-marker{
-  display:none
+  display:none;
 }
 
 summary:after{
   content:"+";
   float:right;
   font-size:20px;
-  color:var(--accent)
+  color:var(--accent);
 }
 
 details[open] summary:after{
-  content:"−"
+  content:"−";
 }
 
 details p{
   color:var(--muted);
   font-size:14px;
-  padding-top:12px
+  padding-top:12px;
 }
 
 .disclaimer{
   font-size:12px!important;
   color:#8a95a3!important;
-  margin-top:20px
+  margin-top:20px;
 }
+
 
 /* =========================
    FOOTER
@@ -639,34 +652,35 @@ details p{
 footer{
   background:#050d18;
   color:#aeb9c6;
-  padding:45px 0
+  padding:45px 0;
 }
 
 .footer-row{
   display:flex;
   justify-content:space-between;
   gap:30px;
-  align-items:center
+  align-items:center;
 }
 
 footer .logo{
-  color:#fff
+  color:#fff;
 }
 
 .footer-copy{
   font-size:12px;
-  margin-top:12px
+  margin-top:12px;
 }
 
 .footer-links{
   display:flex;
   gap:20px;
-  font-size:12px
+  font-size:12px;
 }
 
 .footer-links a:hover{
-  color:#fff
+  color:#fff;
 }
+
 
 /* =========================
    WHATSAPP ICON
@@ -676,7 +690,7 @@ footer .logo{
   width:21px;
   height:21px;
   display:block;
-  flex-shrink:0
+  flex-shrink:0;
 }
 
 .float-wa{
@@ -691,13 +705,13 @@ footer .logo{
   background:var(--green);
   color:#fff;
   box-shadow:0 12px 35px rgba(0,0,0,.25);
-  z-index:50;
-  transition:.25s
+  z-index:200;
+  transition:.25s;
 }
 
 .float-wa:hover{
   transform:scale(1.08);
-  box-shadow:0 15px 40px rgba(37,211,102,.35)
+  box-shadow:0 15px 40px rgba(37,211,102,.35);
 }
 
 .float-wa .wa-label{
@@ -713,13 +727,14 @@ footer .logo{
   opacity:0;
   pointer-events:none;
   transform:translateX(5px);
-  transition:.2s
+  transition:.2s;
 }
 
 .float-wa:hover .wa-label{
   opacity:1;
-  transform:translateX(0)
+  transform:translateX(0);
 }
+
 
 /* =========================
    MOBILE WHATSAPP BAR
@@ -731,7 +746,7 @@ footer .logo{
   left:12px;
   right:12px;
   bottom:12px;
-  z-index:49;
+  z-index:199;
   background:var(--green);
   color:#fff;
   border-radius:14px;
@@ -741,8 +756,9 @@ footer .logo{
   gap:9px;
   font-size:14px;
   font-weight:800;
-  box-shadow:0 12px 35px rgba(0,0,0,.22)
+  box-shadow:0 12px 35px rgba(0,0,0,.22);
 }
+
 
 /* =========================
    RESPONSIVE
@@ -751,22 +767,23 @@ footer .logo{
 @media(max-width:1000px){
 
   .grid{
-    grid-template-columns:repeat(2,1fr)
+    grid-template-columns:repeat(2,1fr);
   }
 
   .trust-grid{
-    grid-template-columns:repeat(2,1fr)
+    grid-template-columns:repeat(2,1fr);
   }
 
   .trust-item:nth-child(2){
-    border-right:0
+    border-right:0;
   }
 
   .trust-item:nth-child(-n+2){
-    border-bottom:1px solid var(--line)
+    border-bottom:1px solid var(--line);
   }
 
 }
+
 
 @media(max-width:900px){
 
@@ -781,125 +798,132 @@ footer .logo{
     flex-direction:column;
     align-items:stretch;
     gap:4px;
-    border-top:1px solid rgba(255,255,255,.08)
+    border-top:1px solid rgba(255,255,255,.08);
   }
 
   .navlinks.active{
-    display:flex
+    display:flex;
   }
 
   .navlinks a{
-    padding:13px 10px
+    padding:13px 10px;
   }
 
   .mobile-menu-btn{
-    display:block
+    display:block;
   }
 
   .why-grid{
-    grid-template-columns:1fr
+    grid-template-columns:1fr;
   }
 
   .document-box{
-    grid-template-columns:1fr
+    grid-template-columns:1fr;
   }
 
 }
 
+
 @media(max-width:620px){
 
   body{
-    padding-bottom:72px
+    padding-bottom:72px;
   }
 
   nav{
-    height:70px
+    height:70px;
+  }
+
+  .navlinks{
+    top:70px;
   }
 
   .logo{
-    font-size:22px
+    font-size:22px;
   }
 
   .hero{
-    min-height:650px
+    min-height:650px;
   }
 
   .hero-content{
-    padding-top:45px
+    padding-top:45px;
   }
 
   .hero p{
-    font-size:16px
+    font-size:16px;
   }
 
   .hero-actions{
-    flex-direction:column
+    flex-direction:column;
   }
 
   .hero-actions .btn{
-    width:100%
+    width:100%;
   }
 
   .section{
-    padding:70px 0
+    padding:70px 0;
   }
 
   .section-head,
   .cta-box,
   .footer-row{
-    display:block
+    display:block;
   }
 
   .section-head p{
-    margin-top:18px
+    margin-top:18px;
   }
 
   .grid,
   .steps{
-    grid-template-columns:1fr
+    grid-template-columns:1fr;
   }
 
   .card{
-    min-height:240px
+    min-height:240px;
   }
 
   .cta .btn{
     margin-top:25px;
-    width:100%
+    width:100%;
   }
 
   .trust-grid{
-    grid-template-columns:1fr 1fr
+    grid-template-columns:1fr 1fr;
   }
 
   .trust-item{
-    padding:18px 8px
+    padding:18px 8px;
   }
 
   .trust-item strong{
-    font-size:12px
+    font-size:12px;
   }
 
   .trust-item span{
-    font-size:10px
+    font-size:10px;
   }
 
   .document-box{
-    padding:22px
+    padding:22px;
   }
 
   .float-wa{
-    display:none
+    display:none;
   }
 
   .mobile-wa{
-    display:flex
+    display:flex;
   }
 
   .footer-links{
-    margin-top:20px
+    margin-top:20px;
   }
+
 }
+
 
 /* =========================
    ACCESSIBILITY
@@ -907,41 +931,71 @@ footer .logo{
 
 :focus-visible{
   outline:3px solid rgba(201,164,92,.55);
-  outline-offset:3px
+  outline-offset:3px;
 }
+
 </style>
 
 </head>
 
 <body>
 
+
 <!-- =========================
      NAVIGATION
 ========================= -->
 
 <nav>
-  <div class="container" style="display:flex;align-items:center;justify-content:space-between;width:100%">
 
-```
-<a class="logo" href="#" aria-label="RAGFIN Home">
-  RAG<span>FIN</span>
-</a>
+  <div
+    class="container"
+    style="display:flex;align-items:center;justify-content:space-between;width:100%"
+  >
 
-<div class="navlinks" id="navLinks">
-  <a href="#services">Services</a>
-  <a href="#why">Why RAGFIN</a>
-  <a href="#process">How It Works</a>
-  <a href="#faq">FAQ</a>
-  <a class="navbtn" href="#contact">Contact</a>
-</div>
+    <a
+      class="logo"
+      href="#"
+      aria-label="RAGFIN Home"
+    >
+      RAG<span>FIN</span>
+    </a>
 
-<button class="mobile-menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
-  ☰
-</button>
-```
+    <div
+      class="navlinks"
+      id="navLinks"
+    >
+
+      <a href="#services">Services</a>
+
+      <a href="#why">Why RAGFIN</a>
+
+      <a href="#process">How It Works</a>
+
+      <a href="#faq">FAQ</a>
+
+      <a
+        class="navbtn"
+        href="#contact"
+      >
+        Contact
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-btn"
+      id="menuBtn"
+      aria-label="Open menu"
+      aria-expanded="false"
+      type="button"
+    >
+      ☰
+    </button>
 
   </div>
+
 </nav>
+
 
 <!-- =========================
      HERO
@@ -951,48 +1005,66 @@ footer .logo{
 
   <div class="container">
 
-```
-<div class="hero-content">
+    <div class="hero-content">
 
-  <div class="eyebrow">
-    Tax • Compliance • Claim Assistance
-  </div>
+      <div class="eyebrow">
+        Tax • Compliance • Claim Assistance
+      </div>
 
-  <h1>
-    Your Filing.<br>
-    Made Simple.
-  </h1>
+      <h1>
+        Your Filing.<br>
+        Made Simple.
+      </h1>
 
-  <p>
-    Professional assistance for GSTR filing, Individual ITR filing,
-    TDS filing and EPFO claim support — with a simple direct
-    connection through WhatsApp.
-  </p>
+      <p>
+        Professional assistance for GSTR filing, Individual ITR filing,
+        TDS filing and EPFO claim support — with a simple direct
+        connection through WhatsApp.
+      </p>
 
-  <div class="hero-actions">
+      <div class="hero-actions">
 
-    <a class="btn btn-primary" href="#services">
-      Explore Services
-    </a>
+        <a
+          class="btn btn-primary"
+          href="#services"
+        >
+          Explore Services
+        </a>
 
-    <a class="btn wa-btn" id="heroWA" href="#">
-      
-      <svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true">
-        <path fill="currentColor" d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
-        <path fill="currentColor" d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"/>
-      </svg>
+        <a
+          class="btn wa-btn"
+          id="heroWA"
+          href="#"
+        >
 
-      Chat on WhatsApp
-    </a>
+          <svg
+            class="wa-icon"
+            viewBox="0 0 32 32"
+            aria-hidden="true"
+          >
+            <path
+              fill="currentColor"
+              d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"
+            />
 
-  </div>
+            <path
+              fill="currentColor"
+              d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"
+            />
+          </svg>
 
-</div>
-```
+          Chat on WhatsApp
+
+        </a>
+
+      </div>
+
+    </div>
 
   </div>
 
 </header>
+
 
 <!-- =========================
      TRUST STRIP
@@ -1002,300 +1074,469 @@ footer .logo{
 
   <div class="container trust-grid">
 
-```
-<div class="trust-item">
-  <strong>Direct WhatsApp</strong>
-  <span>Easy communication</span>
-</div>
+    <div class="trust-item">
 
-<div class="trust-item">
-  <strong>4 Core Services</strong>
-  <span>Focused assistance</span>
-</div>
+      <strong>
+        Direct WhatsApp
+      </strong>
 
-<div class="trust-item">
-  <strong>Simple Process</strong>
-  <span>No complicated forms</span>
-</div>
+      <span>
+        Easy communication
+      </span>
 
-<div class="trust-item">
-  <strong>Transparent Support</strong>
-  <span>Clear communication</span>
-</div>
-```
+    </div>
+
+
+    <div class="trust-item">
+
+      <strong>
+        4 Core Services
+      </strong>
+
+      <span>
+        Focused assistance
+      </span>
+
+    </div>
+
+
+    <div class="trust-item">
+
+      <strong>
+        Simple Process
+      </strong>
+
+      <span>
+        No complicated forms
+      </span>
+
+    </div>
+
+
+    <div class="trust-item">
+
+      <strong>
+        Transparent Support
+      </strong>
+
+      <span>
+        Clear communication
+      </span>
+
+    </div>
 
   </div>
 
 </section>
+
 
 <!-- =========================
      SERVICES
 ========================= -->
 
-<section class="section services" id="services">
+<section
+  class="section services"
+  id="services"
+>
 
   <div class="container">
 
-```
-<div class="section-head">
+    <div class="section-head">
 
-  <div>
-    <div class="kicker">Our Services</div>
+      <div>
 
-    <h2>
-      Focused support.<br>
-      Nothing complicated.
-    </h2>
-  </div>
+        <div class="kicker">
+          Our Services
+        </div>
 
-  <p>
-    Choose the service you need. Your selected service will open
-    a ready-to-send WhatsApp message.
-  </p>
+        <h2>
+          Focused support.<br>
+          Nothing complicated.
+        </h2>
 
-</div>
+      </div>
 
-
-<div class="grid">
-
-
-  <!-- GSTR -->
-
-  <article class="card">
-
-    <div class="icon" aria-hidden="true">
-
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
-        <path d="M5 3h14v18H5z"/>
-        <path d="M8 7h8M8 11h8M8 15h5"/>
-      </svg>
+      <p>
+        Choose the service you need. Your selected service will open
+        a ready-to-send WhatsApp message.
+      </p>
 
     </div>
 
-    <h3>GSTR Filing</h3>
 
-    <p>
-      Assistance with GSTR return filing and related filing requirements.
-    </p>
-
-    <a href="#" class="serviceWA" data-service="GSTR Filing">
-      Get Assistance →
-    </a>
-
-  </article>
+    <div class="grid">
 
 
-  <!-- ITR -->
+      <!-- GSTR -->
 
-  <article class="card">
+      <article class="card">
 
-    <div class="icon" aria-hidden="true">
+        <div
+          class="icon"
+          aria-hidden="true"
+        >
 
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
-        <path d="M4 4h16v16H4z"/>
-        <path d="M8 16v-4M12 16V8M16 16v-6"/>
-      </svg>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="M5 3h14v18H5z"/>
+            <path d="M8 7h8M8 11h8M8 15h5"/>
+          </svg>
+
+        </div>
+
+        <h3>
+          GSTR Filing
+        </h3>
+
+        <p>
+          Assistance with GSTR return filing and related filing requirements.
+        </p>
+
+        <a
+          href="#"
+          class="serviceWA"
+          data-service="GSTR Filing"
+        >
+          Get Assistance →
+        </a>
+
+      </article>
+
+
+      <!-- ITR -->
+
+      <article class="card">
+
+        <div
+          class="icon"
+          aria-hidden="true"
+        >
+
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="M4 4h16v16H4z"/>
+            <path d="M8 16v-4M12 16V8M16 16v-6"/>
+          </svg>
+
+        </div>
+
+        <h3>
+          Individual ITR Filing
+        </h3>
+
+        <p>
+          Assistance for individuals with their Income Tax Return filing process.
+        </p>
+
+        <a
+          href="#"
+          class="serviceWA"
+          data-service="Individual ITR Filing"
+        >
+          Get Assistance →
+        </a>
+
+      </article>
+
+
+      <!-- TDS -->
+
+      <article class="card">
+
+        <div
+          class="icon"
+          aria-hidden="true"
+        >
+
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="M4 5h16v14H4z"/>
+            <path d="M8 9h8M8 13h5M8 17h7"/>
+          </svg>
+
+        </div>
+
+        <h3>
+          TDS Filing
+        </h3>
+
+        <p>
+          Assistance with TDS return filing and related compliance support.
+        </p>
+
+        <a
+          href="#"
+          class="serviceWA"
+          data-service="TDS Filing"
+        >
+          Get Assistance →
+        </a>
+
+      </article>
+
+
+      <!-- EPFO -->
+
+      <article class="card">
+
+        <div
+          class="icon"
+          aria-hidden="true"
+        >
+
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <circle
+              cx="12"
+              cy="8"
+              r="3"
+            />
+
+            <path
+              d="M5 20c.7-3.3 3-5 7-5s6.3 1.7 7 5"
+            />
+
+            <path
+              d="M4 4h16"
+            />
+
+          </svg>
+
+        </div>
+
+        <h3>
+          EPFO Claim Support
+        </h3>
+
+        <p>
+          Guidance and assistance for eligible EPFO / PF claim processes.
+        </p>
+
+        <a
+          href="#"
+          class="serviceWA"
+          data-service="EPFO Claim Support"
+        >
+          Get Assistance →
+        </a>
+
+      </article>
 
     </div>
-
-    <h3>Individual ITR Filing</h3>
-
-    <p>
-      Assistance for individuals with their Income Tax Return filing process.
-    </p>
-
-    <a href="#" class="serviceWA" data-service="Individual ITR Filing">
-      Get Assistance →
-    </a>
-
-  </article>
-
-
-  <!-- TDS -->
-
-  <article class="card">
-
-    <div class="icon" aria-hidden="true">
-
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
-        <path d="M4 5h16v14H4z"/>
-        <path d="M8 9h8M8 13h5M8 17h7"/>
-      </svg>
-
-    </div>
-
-    <h3>TDS Filing</h3>
-
-    <p>
-      Assistance with TDS return filing and related compliance support.
-    </p>
-
-    <a href="#" class="serviceWA" data-service="TDS Filing">
-      Get Assistance →
-    </a>
-
-  </article>
-
-
-  <!-- EPFO -->
-
-  <article class="card">
-
-    <div class="icon" aria-hidden="true">
-
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
-        <circle cx="12" cy="8" r="3"/>
-        <path d="M5 20c.7-3.3 3-5 7-5s6.3 1.7 7 5"/>
-        <path d="M4 4h16"/>
-      </svg>
-
-    </div>
-
-    <h3>EPFO Claim Support</h3>
-
-    <p>
-      Guidance and assistance for eligible EPFO / PF claim processes.
-    </p>
-
-    <a href="#" class="serviceWA" data-service="EPFO Claim Support">
-      Get Assistance →
-    </a>
-
-  </article>
-
-</div>
-```
 
   </div>
 
 </section>
+
 
 <!-- =========================
      WHY RAGFIN
 ========================= -->
 
-<section class="section why" id="why">
+<section
+  class="section why"
+  id="why"
+>
 
   <div class="container">
 
-```
-<div class="section-head">
+    <div class="section-head">
 
-  <div>
-    <div class="kicker">Why RAGFIN</div>
+      <div>
 
-    <h2>
-      Built around<br>
-      simple communication.
-    </h2>
-  </div>
+        <div class="kicker">
+          Why RAGFIN
+        </div>
 
-  <p>
-    The website keeps the initial enquiry simple and lets the
-    customer connect directly through WhatsApp.
-  </p>
+        <h2>
+          Built around<br>
+          simple communication.
+        </h2>
 
-</div>
+      </div>
+
+      <p>
+        The website keeps the initial enquiry simple and lets the
+        customer connect directly through WhatsApp.
+      </p>
+
+    </div>
 
 
-<div class="why-grid">
+    <div class="why-grid">
 
-  <div class="why-card">
-    <div class="why-number">01 — DIRECT</div>
-    <h3>Talk Directly</h3>
-    <p>
-      No complicated enquiry forms. Start your conversation
-      directly through WhatsApp.
-    </p>
-  </div>
 
-  <div class="why-card">
-    <div class="why-number">02 — SIMPLE</div>
-    <h3>Clear Process</h3>
-    <p>
-      Select the service, send your requirement and receive
-      guidance about the next steps.
-    </p>
-  </div>
+      <div class="why-card">
 
-  <div class="why-card">
-    <div class="why-number">03 — FOCUSED</div>
-    <h3>Focused Services</h3>
-    <p>
-      RAGFIN focuses on selected filing, compliance and
-      claim-assistance services.
-    </p>
-  </div>
+        <div class="why-number">
+          01 — DIRECT
+        </div>
 
-</div>
-```
+        <h3>
+          Talk Directly
+        </h3>
+
+        <p>
+          No complicated enquiry forms. Start your conversation
+          directly through WhatsApp.
+        </p>
+
+      </div>
+
+
+      <div class="why-card">
+
+        <div class="why-number">
+          02 — SIMPLE
+        </div>
+
+        <h3>
+          Clear Process
+        </h3>
+
+        <p>
+          Select the service, send your requirement and receive
+          guidance about the next steps.
+        </p>
+
+      </div>
+
+
+      <div class="why-card">
+
+        <div class="why-number">
+          03 — FOCUSED
+        </div>
+
+        <h3>
+          Focused Services
+        </h3>
+
+        <p>
+          RAGFIN focuses on selected filing, compliance and
+          claim-assistance services.
+        </p>
+
+      </div>
+
+    </div>
 
   </div>
 
 </section>
+
 
 <!-- =========================
      PROCESS
 ========================= -->
 
-<section class="section process" id="process">
+<section
+  class="section process"
+  id="process"
+>
 
   <div class="container">
 
-```
-<div class="section-head">
+    <div class="section-head">
 
-  <div>
-    <div class="kicker">Simple Process</div>
+      <div>
 
-    <h2>
-      Three steps.<br>
-      One easy conversation.
-    </h2>
-  </div>
+        <div class="kicker">
+          Simple Process
+        </div>
 
-  <p>
-    No complicated forms on the website.
-    Tell us what you need directly on WhatsApp.
-  </p>
+        <h2>
+          Three steps.<br>
+          One easy conversation.
+        </h2>
 
-</div>
+      </div>
+
+      <p>
+        No complicated forms on the website.
+        Tell us what you need directly on WhatsApp.
+      </p>
+
+    </div>
 
 
-<div class="steps">
+    <div class="steps">
 
-  <div class="step">
-    <div class="num">01 — CHOOSE</div>
-    <h3>Select your service</h3>
-    <p>
-      Pick GSTR, Individual ITR, TDS or EPFO Claim Support.
-    </p>
-  </div>
 
-  <div class="step">
-    <div class="num">02 — CONNECT</div>
-    <h3>Message on WhatsApp</h3>
-    <p>
-      A pre-filled message opens so you can start the
-      conversation immediately.
-    </p>
-  </div>
+      <div class="step">
 
-  <div class="step">
-    <div class="num">03 — ASSIST</div>
-    <h3>Get guidance</h3>
-    <p>
-      Share the required details and receive assistance
-      for your selected service.
-    </p>
-  </div>
+        <div class="num">
+          01 — CHOOSE
+        </div>
 
-</div>
-```
+        <h3>
+          Select your service
+        </h3>
+
+        <p>
+          Pick GSTR, Individual ITR, TDS or EPFO Claim Support.
+        </p>
+
+      </div>
+
+
+      <div class="step">
+
+        <div class="num">
+          02 — CONNECT
+        </div>
+
+        <h3>
+          Message on WhatsApp
+        </h3>
+
+        <p>
+          A pre-filled message opens so you can start the
+          conversation immediately.
+        </p>
+
+      </div>
+
+
+      <div class="step">
+
+        <div class="num">
+          03 — ASSIST
+        </div>
+
+        <h3>
+          Get guidance
+        </h3>
+
+        <p>
+          Share the required details and receive assistance
+          for your selected service.
+        </p>
+
+      </div>
+
+    </div>
 
   </div>
 
 </section>
+
 
 <!-- =========================
      DOCUMENTS
@@ -1305,201 +1546,281 @@ footer .logo{
 
   <div class="container">
 
-```
-<div class="section-head">
+    <div class="section-head">
 
-  <div>
-    <div class="kicker">Before You Contact</div>
+      <div>
 
-    <h2>
-      Keep your basic<br>
-      details ready.
-    </h2>
-  </div>
+        <div class="kicker">
+          Before You Contact
+        </div>
 
-  <p>
-    Requirements can vary depending on the service and individual
-    circumstances. You will be informed about the applicable details.
-  </p>
+        <h2>
+          Keep your basic<br>
+          details ready.
+        </h2>
 
-</div>
+      </div>
 
+      <p>
+        Requirements can vary depending on the service and individual
+        circumstances. You will be informed about the applicable details.
+      </p>
 
-<div class="document-box">
-
-  <div>
-
-    <h3>Common information</h3>
-
-    <ul class="document-list">
-
-      <li>
-        <span class="check">✓</span>
-        <span>Name and mobile number</span>
-      </li>
-
-      <li>
-        <span class="check">✓</span>
-        <span>PAN details where applicable</span>
-      </li>
-
-      <li>
-        <span class="check">✓</span>
-        <span>Relevant financial / employment information</span>
-      </li>
-
-      <li>
-        <span class="check">✓</span>
-        <span>Previous filing or claim information where applicable</span>
-      </li>
-
-    </ul>
-
-  </div>
+    </div>
 
 
-  <div class="document-note">
+    <div class="document-box">
 
-    <h3>Not sure what you need?</h3>
 
-    <p>
-      That's okay. Start a WhatsApp conversation and explain
-      your requirement. The applicable information and documents
-      can be discussed before proceeding.
-    </p>
+      <div>
 
-    <a class="btn wa-btn" id="documentWA" href="#" style="margin-top:22px">
-      
-      <svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true">
-        <path fill="currentColor" d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
-        <path fill="currentColor" d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"/>
-      </svg>
+        <h3>
+          Common information
+        </h3>
 
-      Ask on WhatsApp
-    </a>
+        <ul class="document-list">
 
-  </div>
+          <li>
+            <span class="check">✓</span>
+            <span>Name and mobile number</span>
+          </li>
 
-</div>
-```
+          <li>
+            <span class="check">✓</span>
+            <span>PAN details where applicable</span>
+          </li>
+
+          <li>
+            <span class="check">✓</span>
+            <span>Relevant financial / employment information</span>
+          </li>
+
+          <li>
+            <span class="check">✓</span>
+            <span>Previous filing or claim information where applicable</span>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+      <div class="document-note">
+
+        <h3>
+          Not sure what you need?
+        </h3>
+
+        <p>
+          That's okay. Start a WhatsApp conversation and explain
+          your requirement. The applicable information and documents
+          can be discussed before proceeding.
+        </p>
+
+
+        <a
+          class="btn wa-btn"
+          id="documentWA"
+          href="#"
+          style="margin-top:22px"
+        >
+
+          <svg
+            class="wa-icon"
+            viewBox="0 0 32 32"
+            aria-hidden="true"
+          >
+
+            <path
+              fill="currentColor"
+              d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"
+            />
+
+            <path
+              fill="currentColor"
+              d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"
+            />
+
+          </svg>
+
+          Ask on WhatsApp
+
+        </a>
+
+      </div>
+
+    </div>
 
   </div>
 
 </section>
+
 
 <!-- =========================
      CTA
 ========================= -->
 
-<section class="cta" id="contact">
+<section
+  class="cta"
+  id="contact"
+>
 
   <div class="container cta-box">
 
-```
-<div>
+    <div>
 
-  <div class="kicker">Need Assistance?</div>
+      <div class="kicker">
+        Need Assistance?
+      </div>
 
-  <h2>
-    Tell us what you need.
-    We'll take it from there.
-  </h2>
+      <h2>
+        Tell us what you need.
+        We'll take it from there.
+      </h2>
 
-  <p>
-    Connect directly through WhatsApp.
-  </p>
+      <p>
+        Connect directly through WhatsApp.
+      </p>
 
-</div>
+    </div>
 
-<a class="btn wa-btn" id="bottomWA" href="#">
 
-  <svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true">
-    <path fill="currentColor" d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
-    <path fill="currentColor" d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"/>
-  </svg>
+    <a
+      class="btn wa-btn"
+      id="bottomWA"
+      href="#"
+    >
 
-  WhatsApp Us
-</a>
-```
+      <svg
+        class="wa-icon"
+        viewBox="0 0 32 32"
+        aria-hidden="true"
+      >
+
+        <path
+          fill="currentColor"
+          d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"
+        />
+
+        <path
+          fill="currentColor"
+          d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"
+        />
+
+      </svg>
+
+      WhatsApp Us
+
+    </a>
 
   </div>
 
 </section>
+
 
 <!-- =========================
      FAQ
 ========================= -->
 
-<section class="section faq" id="faq">
+<section
+  class="section faq"
+  id="faq"
+>
 
   <div class="container faq-wrap">
 
-```
-<div class="kicker">FAQ</div>
+    <div class="kicker">
+      FAQ
+    </div>
 
-<h2 style="margin-bottom:30px">
-  Frequently asked questions
-</h2>
-
-
-<details>
-  <summary>How do I request assistance?</summary>
-  <p>
-    Select a service and tap “Get Assistance”.
-    WhatsApp will open with a ready-made message.
-  </p>
-</details>
+    <h2 style="margin-bottom:30px">
+      Frequently asked questions
+    </h2>
 
 
-<details>
-  <summary>Do I need to visit an office?</summary>
-  <p>
-    The initial enquiry can be made directly through WhatsApp.
-    Any document or verification requirements will be explained
-    during the conversation.
-  </p>
-</details>
+    <details>
+
+      <summary>
+        How do I request assistance?
+      </summary>
+
+      <p>
+        Select a service and tap “Get Assistance”.
+        WhatsApp will open with a ready-made message.
+      </p>
+
+    </details>
 
 
-<details>
-  <summary>What information should I share initially?</summary>
-  <p>
-    You can start by explaining the service you need.
-    Avoid sharing sensitive documents or passwords until
-    the applicable requirements have been explained.
-  </p>
-</details>
+    <details>
+
+      <summary>
+        Do I need to visit an office?
+      </summary>
+
+      <p>
+        The initial enquiry can be made directly through WhatsApp.
+        Any document or verification requirements will be explained
+        during the conversation.
+      </p>
+
+    </details>
 
 
-<details>
-  <summary>Does RAGFIN guarantee approval or refunds?</summary>
-  <p>
-    No. Filing and claim outcomes depend on applicable government
-    rules, submitted information, eligibility and processing authorities.
-  </p>
-</details>
+    <details>
+
+      <summary>
+        What information should I share initially?
+      </summary>
+
+      <p>
+        You can start by explaining the service you need.
+        Avoid sharing sensitive documents or passwords until
+        the applicable requirements have been explained.
+      </p>
+
+    </details>
 
 
-<details>
-  <summary>Is RAGFIN a government website?</summary>
-  <p>
-    No. RAGFIN is an independent assistance service and is not
-    a government department or official government portal.
-  </p>
-</details>
+    <details>
+
+      <summary>
+        Does RAGFIN guarantee approval or refunds?
+      </summary>
+
+      <p>
+        No. Filing and claim outcomes depend on applicable government
+        rules, submitted information, eligibility and processing authorities.
+      </p>
+
+    </details>
 
 
-<p class="disclaimer">
-  RAGFIN provides filing and claim assistance. This website does not
-  represent a government department, EPFO, GST department or Income
-  Tax Department. Service availability and outcomes are subject to
-  applicable rules and verification.
-</p>
-```
+    <details>
+
+      <summary>
+        Is RAGFIN a government website?
+      </summary>
+
+      <p>
+        No. RAGFIN is an independent assistance service and is not
+        a government department or official government portal.
+      </p>
+
+    </details>
+
+
+    <p class="disclaimer">
+      RAGFIN provides filing and claim assistance. This website does not
+      represent a government department, EPFO, GST department or Income
+      Tax Department. Service availability and outcomes are subject to
+      applicable rules and verification.
+    </p>
 
   </div>
 
 </section>
+
 
 <!-- =========================
      FOOTER
@@ -1509,55 +1830,79 @@ footer .logo{
 
   <div class="container footer-row">
 
-```
-<div>
+    <div>
 
-  <div class="logo">
-    RAG<span>FIN</span>
-  </div>
+      <div class="logo">
+        RAG<span>FIN</span>
+      </div>
 
-  <div class="footer-copy">
-    Tax • Compliance • Filing Support
-  </div>
+      <div class="footer-copy">
+        Tax • Compliance • Filing Support
+      </div>
 
-</div>
+    </div>
 
 
-<div>
+    <div>
 
-  <div class="footer-links">
-    <a href="#services">Services</a>
-    <a href="#process">Process</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact">Contact</a>
-  </div>
+      <div class="footer-links">
 
-  <div class="footer-copy">
-    © 2026 RAGFIN. All rights reserved.
-  </div>
+        <a href="#services">
+          Services
+        </a>
 
-</div>
-```
+        <a href="#process">
+          Process
+        </a>
+
+        <a href="#faq">
+          FAQ
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
+
+      </div>
+
+      <div class="footer-copy">
+        © 2026 RAGFIN. All rights reserved.
+      </div>
+
+    </div>
 
   </div>
 
 </footer>
+
 
 <!-- =========================
      FLOATING WHATSAPP
 ========================= -->
 
 <a
-class="float-wa"
-id="floatWA"
-href="#"
-aria-label="Chat with RAGFIN on WhatsApp"
-
+  class="float-wa"
+  id="floatWA"
+  href="#"
+  aria-label="Chat with RAGFIN on WhatsApp"
 >
 
-  <svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true">
-    <path fill="currentColor" d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
-    <path fill="currentColor" d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"/>
+  <svg
+    class="wa-icon"
+    viewBox="0 0 32 32"
+    aria-hidden="true"
+  >
+
+    <path
+      fill="currentColor"
+      d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"
+    />
+
+    <path
+      fill="currentColor"
+      d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"
+    />
+
   </svg>
 
   <span class="wa-label">
@@ -1566,24 +1911,40 @@ aria-label="Chat with RAGFIN on WhatsApp"
 
 </a>
 
-<!-- MOBILE WHATSAPP BAR -->
+
+<!-- =========================
+     MOBILE WHATSAPP BAR
+========================= -->
 
 <a
-class="mobile-wa"
-id="mobileWA"
-href="#"
-aria-label="Chat with RAGFIN on WhatsApp"
-
+  class="mobile-wa"
+  id="mobileWA"
+  href="#"
+  aria-label="Chat with RAGFIN on WhatsApp"
 >
 
-  <svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true">
-    <path fill="currentColor" d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
-    <path fill="currentColor" d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"/>
+  <svg
+    class="wa-icon"
+    viewBox="0 0 32 32"
+    aria-hidden="true"
+  >
+
+    <path
+      fill="currentColor"
+      d="M19.11 17.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.12-.41-2.14-1.31-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.55.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"
+    />
+
+    <path
+      fill="currentColor"
+      d="M16.03 3.2c-7.1 0-12.87 5.77-12.87 12.87 0 2.27.59 4.48 1.72 6.43L3.2 28.8l6.46-1.69a12.84 12.84 0 0 0 6.37 1.68h.01c7.1 0 12.87-5.77 12.87-12.87S23.13 3.2 16.03 3.2zm0 23.43h-.01a10.53 10.53 0 0 1-5.37-1.47l-.39-.23-3.83 1 1.02-3.73-.25-.4a10.56 10.56 0 1 1 8.83 4.83z"
+    />
+
   </svg>
 
-Chat on WhatsApp
+  Chat on WhatsApp
 
 </a>
+
 
 <script>
 
@@ -1597,23 +1958,28 @@ const WHATSAPP_NUMBER = "918925554002";
 function whatsappMessage(service){
 
   const msg = service
+
     ? `Hello RAGFIN, I need assistance with ${service}. Please let me know the requirements and next steps.`
+
     : `Hello RAGFIN, I would like to know more about your filing and claim assistance services.`;
 
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+
 }
 
 
-/* SERVICE BUTTONS */
+/* ===========================
+   SERVICE BUTTONS
+=========================== */
 
 document.querySelectorAll(".serviceWA").forEach(link => {
 
-  link.addEventListener("click", e => {
+  link.addEventListener("click", function(e){
 
     e.preventDefault();
 
     window.open(
-      whatsappMessage(link.dataset.service),
+      whatsappMessage(this.dataset.service),
       "_blank",
       "noopener,noreferrer"
     );
@@ -1623,7 +1989,9 @@ document.querySelectorAll(".serviceWA").forEach(link => {
 });
 
 
-/* GENERAL WHATSAPP BUTTONS */
+/* ===========================
+   GENERAL WHATSAPP BUTTONS
+=========================== */
 
 [
   "heroWA",
@@ -1636,18 +2004,23 @@ document.querySelectorAll(".serviceWA").forEach(link => {
   const element = document.getElementById(id);
 
   if(element){
+
     element.href = whatsappMessage();
+
   }
 
 });
 
 
-/* MOBILE MENU */
+/* ===========================
+   MOBILE MENU
+=========================== */
 
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
 
-menuBtn.addEventListener("click", () => {
+
+menuBtn.addEventListener("click", function(){
 
   const isOpen = navLinks.classList.toggle("active");
 
@@ -1656,20 +2029,35 @@ menuBtn.addEventListener("click", () => {
     isOpen ? "true" : "false"
   );
 
+  menuBtn.setAttribute(
+    "aria-label",
+    isOpen ? "Close menu" : "Open menu"
+  );
+
   menuBtn.textContent = isOpen ? "×" : "☰";
 
 });
 
 
-/* CLOSE MOBILE MENU AFTER CLICK */
+/* ===========================
+   CLOSE MOBILE MENU
+=========================== */
 
 document.querySelectorAll(".navlinks a").forEach(link => {
 
-  link.addEventListener("click", () => {
+  link.addEventListener("click", function(){
 
     navLinks.classList.remove("active");
 
-    menuBtn.setAttribute("aria-expanded","false");
+    menuBtn.setAttribute(
+      "aria-expanded",
+      "false"
+    );
+
+    menuBtn.setAttribute(
+      "aria-label",
+      "Open menu"
+    );
 
     menuBtn.textContent = "☰";
 
